@@ -3,13 +3,15 @@
 panda-bot:
   discord:
     ### Do not set these if private server, otherwise will be used for searching
-    public_invite: https://discord.gg/Hs57Jg4
+    public_invite: https://discord.gg/QVZM4RJwVn
     # Select server type, valid options: project, community, trading. Contact us to add new categories
     type: project
     # Set if server allows rains for promotion of any panda-bot listed currency
     allow_rain: True
     # Set short description of server
-    description: Welcome all Crypto enthusiasts!
+    description: Welcome to the GenesisX Project!
+    Development of a clean, practical, maintained, ahead of the curve storage facility is our game. Your security starts in the beginning.
+    Community driven project with a passion for safety and privacy.
     ### Ignore up to here if private server
     # Default currency ticker to use, set to False to allow multiple currencies
     default_currency: False
@@ -18,10 +20,10 @@ panda-bot:
     allowed_currency:
       - boo
       - eth
+      - xgs
+      - doge
     # List of the channels for panda-bot to respond to, by default will respond to all
     allowed_channels:
-      - 446869315954802699
-      - 541918786920382465
     # Allow other bots to use panda-bot?
     allow_bots: False
 
